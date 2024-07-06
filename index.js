@@ -17,11 +17,13 @@ app.use(bodyParser.urlencoded({
     extended: true
 }))
 
-mongoose.connect('mongodb://localhost:27017/Database')
+// database connection
+mongoose.connect('mongodb://localhost:27017/registration-form')
 const db = mongoose.connection
 db.on('error', () => console.log("Error in Database connection."))
 db.once('open', () => console.log("Connected to Database."))
 
+// setting input form values
 app.post("/sign_up", (req, res) => {
     const name = req.body.name
     const age = req.body.age
