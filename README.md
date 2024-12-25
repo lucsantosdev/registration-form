@@ -15,7 +15,7 @@ Want to take a sneak peek at the progress? Feel free to browse through the code,
 ---
 
 ## 🛠 What Will This Project Become?
-Imagine something useful, creative, and, of course, charming. Now imagine that I'm still figuring out exactly what that means. Jokes aside, this repository is aiming to become a [registration form].
+Imagine something useful, creative, and, of course, charming. Now imagine that I'm still figuring out exactly what that means. Jokes aside, this repository is aiming to become a [registration form] using Node JS, MongoDB, HTML and CSS for my personal portfolio.
 
 ---
 
